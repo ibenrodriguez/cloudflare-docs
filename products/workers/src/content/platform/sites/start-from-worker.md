@@ -25,7 +25,7 @@ If you have a pre-existing Worker project, you can use Workers Sites to serve st
 2. Add the `@cloudflare/kv-asset-handler` package to your project:
 
   ```sh
-  $ npm i @cloudflare/kv-asset-handler
+  $ yarn add @cloudflare/kv-asset-handler
   ```
 
 3. Import the package’s code into your Worker script and invoke it within your function handler to respond with static assets:
